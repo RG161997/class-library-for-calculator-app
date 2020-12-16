@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <form action="Calculator/total" method="post">
+            Enter 1st number: <input type="text" name="number1" />
+            <br />
+            Enter 2nd number: <input type="text" name="number2" />
+            <br />
+            Select mathematical operation :
+           
+            <input type="radio" value="Add" name="calc" />Add
+            <input type="radio" value="Subtract" name="calc" />Subtract
+            <input type="radio" value="Multiply" name="calc"/>Multiply
+            <input type="radio" value="Divide" name="calc"/>Divide
+            <input type="submit" value="result" />
+
+        </form>
+    </div>
+</body>
+</html>
